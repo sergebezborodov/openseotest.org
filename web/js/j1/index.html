@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>#J1: Insert links after timeout</title>
+</head>
+<body>
+    <p>Here is links which inserted after delays:</p>
+    <ul>
+        <li id="link-0-timeout"></li>
+        <li id="link-0_5s-timeout"></li>
+        <li id="link-1s-timeout"></li>
+        <li id="link-1_5s-timeout"></li>
+        <li id="link-2s-timeout"></li>
+        <li id="link-3s-timeout"></li>
+        <li id="link-4s-timeout"></li>
+        <li id="link-10s-timeout"></li>
+    </ul>
+    <script>
+        var e = document.createElement("a");
+        e.text = "Link without timeout";
+        e.href = "0.html";
+        document.getElementById('link-0-timeout').appendChild(e);
+
+        setTimeout(function() {
+            var e = document.createElement("a");
+            e.text = "Link inserted after 0.5s timeout";
+            e.href = "0_5s.html";
+            document.getElementById('link-0_5s-timeout').appendChild(e);
+        }, 500);
+
+        setTimeout(function() {
+            var e = document.createElement("a");
+            e.text = "Link inserted after 1s timeout";
+            e.href = "1s.html";
+            document.getElementById('link-1s-timeout').appendChild(e);
+        }, 1000);
+
+        setTimeout(function() {
+            var e = document.createElement("a");
+            e.text = "Link inserted after 1.5s timeout";
+            e.href = "1_5s.html";
+            document.getElementById('link-1_5s-timeout').appendChild(e);
+        }, 1500);
+
+        setTimeout(function() {
+            var e = document.createElement("a");
+            e.text = "Link inserted after 2s timeout";
+            e.href = "2s.html";
+            document.getElementById('link-2s-timeout').appendChild(e);
+        }, 2000);
+
+        setTimeout(function() {
+            var e = document.createElement("a");
+            e.text = "Link inserted after 3s timeout";
+            e.href = "3s.html";
+            document.getElementById('link-3s-timeout').appendChild(e);
+        }, 3000);
+
+        setTimeout(function() {
+            var e = document.createElement("a");
+            e.text = "Link inserted after 4s timeout";
+            e.href = "4s.html";
+            document.getElementById('link-4s-timeout').appendChild(e);
+        }, 4000);
+
+        setTimeout(function() {
+            var e = document.createElement("a");
+            e.text = "Link inserted after 10s timeout";
+            e.href = "10s.html";
+            document.getElementById('link-10s-timeout').appendChild(e);
+        }, 10000);
+    </script>
+</body>
+</html>

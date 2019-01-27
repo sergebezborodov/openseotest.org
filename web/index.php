@@ -23,7 +23,7 @@
                 <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://github.com/sergebezborodov/openseotest.org" target="_blank">Source Code</a>
+                <a class="nav-link" href="https://github.com/sergebezborodov/openseotest.org" target="_blank">Our GitHub</a>
             </li>
         </ul>
     </div>
@@ -45,19 +45,22 @@
             <h3>General Technical Tests</h3>
             <ul>
                 <li>
-                    <a href="/techical/gt1/index.html">#GT1: Does Google/Yandex follow links at meta=noindex, nofollow</a>
+                    <a href="/techical/gt1/index.html">#GT1: Does Google/Yandex follow links at pages with meta=noindex, nofollow</a>
                 </li>
                 <li>
-                    <a href="/techical/gt2/index.html">#GT2: Does Google/Yandex follow links at meta=noindex, follow</a>
+                    <a href="/techical/gt2/index.html">#GT2: Does Google/Yandex follow links at pages with meta=noindex, follow</a>
                 </li>
                 <li>
-                    <a href="/techical/gt3/index.html">#GT3: Does Google/Yandex follow links at meta=noindex</a>
+                    <a href="/techical/gt3/index.html">#GT3: Does Google/Yandex follow links at pages with meta=noindex</a>
                 </li>
                 <li>
-                    <a href="/techical/gt4/index.php">#GT4: Does Google/Yandex follow links at XRobots header with noindex, follow</a>
+                    <a href="/techical/gt4/index.php">#GT4: Does Google/Yandex follow links at pages with XRobots header with noindex, follow</a>
                 </li>
                 <li>
-                    <a href="/techical/gt5/index.php">#GT5: Does Google/Yandex follow links at XRobots header with noindex</a>
+                    <a href="/techical/gt5/index.php">#GT5: Does Google/Yandex follow links at pages with XRobots header with noindex</a>
+                </li>
+                <li>
+                    <a href="/techical/gt6/index.html">#GT6: Does Google/Yandex follow links in images</a>
                 </li>
             </ul>
             <br><br>
@@ -75,8 +78,16 @@
     <h3>General Javascript Tests</h3>
     <ul>
         <li>
-            <a href="/">J1#: Put links to page after different timeouts</a>
+            <a href="/js/j1/index.html">J1#: Put links to page after different timeouts</a>
         </li>
     </ul>
 </main><!-- /.container -->
+
+<section id="footer">
+    <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+            &copy; 2019 OpenSeoTest.org
+        </div>
+    </div>
+</section>
 </html>
