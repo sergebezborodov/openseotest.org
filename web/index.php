@@ -51,22 +51,22 @@
             <h3>General Technical Tests</h3>
             <ul>
                 <li>
-                    <a href="/techical/gt1/index.html">#GT1: Does Google/Yandex follow links at pages with meta=noindex, nofollow</a>
+                    <a href="/tech/gt1/index.html">#GT1: Does Google/Yandex follow links at pages with meta=noindex, nofollow</a>
                 </li>
                 <li>
-                    <a href="/techical/gt2/index.html">#GT2: Does Google/Yandex follow links at pages with meta=noindex, follow</a>
+                    <a href="/tech/gt2/index.html">#GT2: Does Google/Yandex follow links at pages with meta=noindex, follow</a>
                 </li>
                 <li>
-                    <a href="/techical/gt3/index.html">#GT3: Does Google/Yandex follow links at pages with meta=noindex</a>
+                    <a href="/tech/gt3/index.html">#GT3: Does Google/Yandex follow links at pages with meta=noindex</a>
                 </li>
                 <li>
-                    <a href="/techical/gt4/index.php">#GT4: Does Google/Yandex follow links at pages with XRobots header with noindex, follow</a>
+                    <a href="/tech/gt4/index.php">#GT4: Does Google/Yandex follow links at pages with XRobots header with noindex, follow</a>
                 </li>
                 <li>
-                    <a href="/techical/gt5/index.php">#GT5: Does Google/Yandex follow links at pages with XRobots header with noindex</a>
+                    <a href="/tech/gt5/index.php">#GT5: Does Google/Yandex follow links at pages with XRobots header with noindex</a>
                 </li>
                 <li>
-                    <a href="/techical/gt6/index.html">#GT6: Does Google/Yandex follow links in images</a>
+                    <a href="/tech/gt6/index.html">#GT6: Does Google/Yandex follow links in images</a>
                 </li>
             </ul>
             <br><br>
