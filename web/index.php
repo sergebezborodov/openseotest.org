@@ -25,6 +25,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="https://github.com/sergebezborodov/openseotest.org" target="_blank">Our GitHub</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/logs/google.log" target="_blank">Google Access Log</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/logs/yandex.log" target="_blank">Yandex Access Log</a>
+            </li>
         </ul>
     </div>
 </nav>
